@@ -1,14 +1,96 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Desarrollador - Imperio Apps</title>
+  <title>Imperio Apps - Desarrollo en Ascenso</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+      color: #f0f0f0;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #00c3ff;
+      margin-bottom: 10px;
+    }
+    .seccion {
+      background-color: #2e2e2e;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 12px rgba(0, 195, 255, 0.2);
+      transition: transform 0.3s;
+    }
+    .seccion:hover {
+      transform: translateY(-4px);
+    }
+    h2 {
+      font-size: 1.6rem;
+      color: #00c3ff;
+      margin-bottom: 10px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    .boton-descarga {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #00c3ff;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 195, 255, 0.5);
+      transition: background 0.3s, transform 0.2s;
+    }
+    .boton-descarga:hover {
+      background-color: #00a8dd;
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h1>Imperio Apps</h1>
-  <p>Desarrollador de aplicaciones móviles, incluyendo Ascenso MC.</p>
-  <p>Contacto: contacto@imperioapps.com</p>
-  <a href="https://play.google.com/store/apps/details?id=com.imperioapps.ascenso">Descargar app</a>
+  <header>
+    <h1>Imperio Apps</h1>
+    <p>Innovación en tus manos</p>
+  </header>
+
+  <div class="seccion">
+    <h2>¿Quiénes somos?</h2>
+    <p>Imperio Apps es una nueva marca enfocada en el desarrollo de experiencias móviles únicas. Nuestro enfoque es la creación de aplicaciones dinámicas, creativas y en constante evolución. Cada proyecto refleja nuestro compromiso con la mejora continua y la atención a las necesidades reales de los usuarios.</p>
+  </div>
+
+  <div class="seccion">
+    <h2>Ascenso MC</h2>
+    <p><strong>Ascenso MC</strong> es uno de nuestros proyectos más ambiciosos. Un juego competitivo que mezcla estrategia, reflejos y cultura urbana, diseñado para fans del freestyle y las batallas de rap. Enfrenta a MCs reales en un formato dinámico con rondas interactivas, puntuaciones, y un sistema de progreso personalizado.</p>
+    <a class="boton-descarga" href="https://play.google.com/store/apps/details?id=com.imperioapps.ascenso" target="_blank">📲 Descargar Ascenso MC</a>
+  </div>
+
+  <footer>
+    Contacto: imperiomc00@gmail.com
+  </footer>
 </body>
 </html>
